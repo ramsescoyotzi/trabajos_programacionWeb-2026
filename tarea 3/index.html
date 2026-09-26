@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Semanticas y de formateo de texto 2</title>
+    <meta name="author" content="Ramses Israel Coyotzi Ayala">
+
+</head>
+<body>
+    <h2>Como citar con semantica en HTML</h2>
+    <!-- citas cortas -->
+    <p>como dijo un sabio: "Yo solo se que no se nada" -Sabio</p>
+    <p>como dijo un sabio: <q>Yo solo se que no se nada</q> -Sabio</p>
+    <!-- citas largas -->
+    <p>Como dijo un sabio:</p>
+    <blockquote>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, magnam culpa repellendus omnis fugiat, accusantium at dolores, numquam commodi sequi ipsam iusto vel inventore. Quas eaque hic soluta sed fugiat.
+    </blockquote>
+    <p>y otro dijo:</p>
+    <blockquote>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, minima!
+    </blockquote>
+
+    <hr>
+
+    <h2>Saltos de línea y reglas horizontales</h2>
+    <p>Este es el primer parrafo <br><br> Este es el segundo parrafo <br>Este es el tercer parrafo</p>
+<hr>
+<h2>Visualización y Formato de Código</h2>
+    <p>cuando nostros implementamos <code>print("Hola mundo")</code> en python, la salida en consola será: <code>Hola mundo</code></p>
+    <h3>Visualización de codigo en varias lineas</h3>
+    <p>Este Programa dos Números en Python</p>
+    <pre>
+        #suma de dos numeros
+        a=5
+        b=6
+        print(a+b)
+    </pre>
+    <p>Este Codigo imprime un hola mundo en HTML</p>
+    <!-- para escribir caractere especiales como <> de se en las entradas html que permiten al navegador que vamos a utilizar un simbolo especial -->
+    <pre>
+        &lt;body&gt;
+            &lt;h1&gt;hola mundo&lt;/h1&gt;
+        &lt;/body&gt;
+    </pre>
+    <hr>
+    <p>Para representar la entrada de teclado (teclas) 
+        se utiliza la etiqueta <code>&lt;kdb&gt;&lt;/kdb&gt;</code>
+    </p>
+    <p>para copiar el texto de un archivo, utilizamos la combinacion de teclas <kbd>control + c</kbd></p>
+</body>
+</html>
